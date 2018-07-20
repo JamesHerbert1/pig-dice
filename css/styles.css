@@ -26,3 +26,23 @@ input[type=text], select {
     cursor: pointer;
 	margin-left: 30px; 
 }
+.jumbotron{
+    background-image: url(..//img/dice.jpg);
+    margin-bottom: 0%;
+}
+.footer{
+    padding: 10;
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+    font-style: 'Hind Siliguri', Open Sans;
+    font-size: 32px;
+    background-image: url(../img/pd.jpeg)
+    
+
+}
+.social{
+    text-align: center;
+    margin-top: 0%;
+    color: #ffffff
+}
