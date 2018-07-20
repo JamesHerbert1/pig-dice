@@ -10,7 +10,52 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Hind+Siliguri">
     <title>Pig-Dice</title>
 </head>
-<body>
+    <body>
+        <div class="start-menu container">
+            <div class="what">
+                <h1>Pig-Dice</h1>
+                <h3>Let's play!</h3>
+  <!---form for player1----->
+                <form id="player-1">
+                    <div class="form-group">
+                        <label for="player1Name">Player 1:</label><br>
+                         <input required class="player1Name" type="text" placeholder="Enter your name">
+                    </div>
+                </form>
+<!---form for player2----->
+                <form id="player-2">
+                    <div class="form-group">
+                        <label for="player2Name">Player 2:</label><br>
+                        <input required class="player2Name" type="text" placeholder="Enter your name">
+                    </div>
+                </form>
+<!---button to start your game-->
+                <button id="start" class="btn">Start</button>
+            </div>
+        </div>
+                
+        <div class="player-console container">
+            <button id="new-game" class="btn">NEW GAME </button>
+                <div class = "row">
+                    <div class="col-md-6">
+                        <h2>Player 1: <span id = "player1Name"><span></h2>
+                            <button id="player1-roll" class="btn">Roll</button>
+                            <button id="player1-hold" class="btn">Hold</button>
+                        <h2 id="die-roll-1">Dice Roll: </h2>
+                        <p id="round-total-1">Round Total: </p>
+                        <p id="total-score-1">Players Score: </p>
+                    </div>
+                
+                    <div class="col-md-6">
+                        <h2>Player 2: <span id = "player2Name"><span></h2>
+                          <button id="player2-roll" class="btn">Roll</button>
+                          <button id="player2-hold" class="btn">Hold</button>
+                          <h2 id="die-roll-2">Dice Roll: </h2>
+                          <p id="round-total-2">Round Total: </p>
+                          <p id="total-score-2">Players Score: </p>
+                    </div>
+                </div>
+        </div>
     
-</body>
+    </body>
 </html>
